@@ -13,6 +13,7 @@
 		9F9E9AFE1D604193003EDEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E9AFC1D604193003EDEEB /* Main.storyboard */; };
 		9F9E9B001D604193003EDEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E9AFF1D604193003EDEEB /* Assets.xcassets */; };
 		9F9E9B031D604193003EDEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E9B011D604193003EDEEB /* LaunchScreen.storyboard */; };
+		9F9E9B0C1D604260003EDEEB /* UIButton+JWCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E9B0B1D604260003EDEEB /* UIButton+JWCountdown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9F9E9AFF1D604193003EDEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9E9B021D604193003EDEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F9E9B041D604193003EDEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9E9B0A1D604260003EDEEB /* UIButton+JWCountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWCountdown.h"; sourceTree = "<group>"; };
+		9F9E9B0B1D604260003EDEEB /* UIButton+JWCountdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWCountdown.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		9F9E9AF21D604192003EDEEB /* JWCountdown */ = {
 			isa = PBXGroup;
 			children = (
+				9F9E9B0A1D604260003EDEEB /* UIButton+JWCountdown.h */,
+				9F9E9B0B1D604260003EDEEB /* UIButton+JWCountdown.m */,
 				9F9E9AF61D604193003EDEEB /* AppDelegate.h */,
 				9F9E9AF71D604193003EDEEB /* AppDelegate.m */,
 				9F9E9AF91D604193003EDEEB /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9E9B0C1D604260003EDEEB /* UIButton+JWCountdown.m in Sources */,
 				9F9E9AFB1D604193003EDEEB /* ViewController.m in Sources */,
 				9F9E9AF81D604193003EDEEB /* AppDelegate.m in Sources */,
 				9F9E9AF51D604193003EDEEB /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				9F9E9B091D604193003EDEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
