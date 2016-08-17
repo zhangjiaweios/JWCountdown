@@ -10,7 +10,8 @@
 
 @interface UIButton (JWCountdown)
 
-- (void)jwCountdownBeginWithTimeInterval:(NSTimeInterval)timeInterval;
-- (void)jwCountdownEnd;
+- (void)countdownBegin; // timeInterval 1s
+- (void)countdownBeginWithTimeInterval:(NSTimeInterval)timeInterval;
+- (void)countdownEnd;
 
 @end
