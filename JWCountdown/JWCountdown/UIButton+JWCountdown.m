@@ -69,13 +69,14 @@ static char disabledTitleKey = 'k';
     countdownScanner.charactersToBeSkipped = nil;
     
     NSCharacterSet *decimalDigitCharacterSet = [NSCharacterSet decimalDigitCharacterSet];
+    NSCharacterSet *anyCharacterSet = [NSCharacterSet characterSetWithCharactersInString:@""];
     NSString *firstString = @"";
     NSDecimal middleDecimal;
     NSString *lastString = @"";
     
     [countdownScanner scanUpToCharactersFromSet:decimalDigitCharacterSet intoString:&firstString];
     [countdownScanner scanDecimal:&middleDecimal];
-    [countdownScanner scanUpToCharactersFromSet:decimalDigitCharacterSet intoString:&lastString];
+    [countdownScanner scanUpToCharactersFromSet:anyCharacterSet intoString:&lastString];
     
     NSDecimalNumber *middleDecimalNumber = [NSDecimalNumber decimalNumberWithDecimal:middleDecimal];
     NSDecimalNumber *timeIntervalDecimalNumber = [NSDecimalNumber decimalNumberWithString:@(self.countdownTimer.timeInterval).stringValue];

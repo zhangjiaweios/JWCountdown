@@ -35,7 +35,7 @@
     
     
     // Just set a number
-    [self.countdownBeginButton setTitle:@"1e1" forState:UIControlStateDisabled];
+    [self.countdownBeginButton setTitle:@"any1e1any10any" forState:UIControlStateDisabled];
 }
 
 - (void)countdownBeginButtonTouch {
